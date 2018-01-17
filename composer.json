@@ -11,6 +11,7 @@
         "behat/mink-goutte-driver": "~1.2",
         "jcalderonzumba/gastonjs": "~1.0.2",
         "drupal/coder": "8.*",
+        "drupal/twig_xdebug": "^1.0",
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
         "symfony/css-selector": "~2.8",
@@ -28,8 +29,7 @@
         "drupal/bootstrap": "^3.8",
         "drupal/admin_toolbar": "^1.22",
         "drupal/photoswipe": "^1.0@beta",
-        "drupal/focal_point": "1.x-dev",
-        "drupal/twig_xdebug": "^1.0"
+        "bower-asset/photoswipe": "^4.1"
     },
     "repositories": [
         {
