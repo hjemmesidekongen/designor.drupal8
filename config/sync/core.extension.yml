@@ -6,6 +6,7 @@ module:
   ckeditor: 0
   config: 0
   consumers: 0
+  content_moderation: 0
   contextual: 0
   crop: 0
   ctools: 0
@@ -13,6 +14,8 @@ module:
   dblog: 0
   diff: 0
   dropzonejs: 0
+  dropzonejs_eb_widget: 0
+  dynamic_page_cache: 0
   editor: 0
   embed: 0
   entity_browser: 0
@@ -35,6 +38,7 @@ module:
   lightning_media: 0
   lightning_media_bulk_upload: 0
   link: 0
+  locale: 0
   media: 0
   menu_ui: 0
   metatag: 0
@@ -58,6 +62,7 @@ module:
   token: 0
   toolbar: 0
   twig_xdebug: 0
+  update: 0
   user: 0
   video_embed_field: 0
   views_infinite_scroll: 0
