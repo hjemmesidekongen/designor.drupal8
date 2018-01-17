@@ -24,7 +24,9 @@
     "require": {
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "acquia/lightning": "~3.0.0"
+        "acquia/lightning": "~3.0.0",
+        "drupal/bootstrap": "^3.8",
+        "drupal/admin_toolbar": "^1.22"
     },
     "repositories": [
         {
