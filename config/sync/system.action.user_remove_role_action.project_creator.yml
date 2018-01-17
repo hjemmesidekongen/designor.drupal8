@@ -1,0 +1,14 @@
+uuid: 2d7187c7-b2d5-487e-97e7-05f091bfba1e
+langcode: da
+status: true
+dependencies:
+  config:
+    - user.role.project_creator
+  module:
+    - user
+id: user_remove_role_action.project_creator
+label: 'Remove the Projekt creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: project_creator

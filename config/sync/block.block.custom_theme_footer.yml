@@ -1,0 +1,26 @@
+uuid: 1a00988d-ff1c-40f7-8dbe-49d6445c7896
+langcode: da
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - custom_theme
+_core:
+  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
+id: custom_theme_footer
+theme: custom_theme
+region: header_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer-menu
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

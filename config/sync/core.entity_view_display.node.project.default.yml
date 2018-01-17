@@ -1,0 +1,37 @@
+uuid: 2f00e402-a5ca-404d-88c3-7b84deb620f5
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.project.field_client_id
+    - field.field.node.project.field_designs
+    - node.type.project
+  module:
+    - image
+    - user
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content:
+  field_client_id:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_designs:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
+  links: true
+  scheduled_publication: true

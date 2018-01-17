@@ -1,0 +1,22 @@
+uuid: 1c87c088-004b-4937-98e6-0d9d79063139
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - custom_base_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: custom_base_theme_powered
+theme: custom_base_theme
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Drives af Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

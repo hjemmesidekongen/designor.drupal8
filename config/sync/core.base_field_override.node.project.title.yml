@@ -1,0 +1,18 @@
+uuid: 94253366-879f-492e-a4f1-2d1441958003
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.project
+id: node.project.title
+field_name: title
+entity_type: node
+bundle: project
+label: Navn
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

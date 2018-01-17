@@ -1,0 +1,24 @@
+uuid: c42bce3d-4959-47f4-b4a8-2b1cf8237694
+langcode: da
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.project.field_client_id
+    - field.field.node.project.field_designs
+    - node.type.project
+  module:
+    - user
+id: node.project.teaser
+targetEntityType: node
+bundle: project
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_client_id: true
+  field_designs: true
+  langcode: true
+  scheduled_publication: true

@@ -1,0 +1,22 @@
+uuid: f885668e-5e81-4f9a-8332-4d48bbacab70
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+id: client
+label: Kunde
+type: 'canonical_entities:node'
+pattern: '[node:field_client_id:entity:name]/[node:title]'
+selection_criteria:
+  61054f2f-c96c-4d10-8246-f4c1892f17a1:
+    id: node_type
+    bundles:
+      project: project
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 61054f2f-c96c-4d10-8246-f4c1892f17a1
+selection_logic: and
+weight: -5
+relationships: {  }

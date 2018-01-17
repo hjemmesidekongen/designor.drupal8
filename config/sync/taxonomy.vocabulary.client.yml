@@ -1,0 +1,9 @@
+uuid: 040b30dd-e165-475d-b62d-135c7a1ff46e
+langcode: da
+status: true
+dependencies: {  }
+name: Kunde
+vid: client
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,38 @@
+uuid: bcd7f24e-f560-4787-ba52-9884911f1691
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designs
+    - node.type.project
+  module:
+    - image
+id: node.project.field_designs
+field_name: field_designs
+entity_type: node
+bundle: project
+label: Designs
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: true
+  title_field_required: true
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

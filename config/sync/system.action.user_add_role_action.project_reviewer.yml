@@ -1,0 +1,14 @@
+uuid: 9b1f5a7b-3d5e-4050-ab26-fc903d4448bc
+langcode: da
+status: true
+dependencies:
+  config:
+    - user.role.project_reviewer
+  module:
+    - user
+id: user_add_role_action.project_reviewer
+label: 'Add the Projekt reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: project_reviewer

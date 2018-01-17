@@ -1,0 +1,20 @@
+uuid: f7055a22-c8c4-4a59-9c26-4516c317ff73
+langcode: da
+status: true
+dependencies:
+  theme:
+    - custom_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: custom_theme_local_actions
+theme: custom_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primære adminsitratorhandlinger'
+  provider: core
+  label_display: '0'
+visibility: {  }
