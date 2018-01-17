@@ -18,7 +18,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      photoswipe_node_style: medium
+      photoswipe_node_style: cropped_400_x_400
       photoswipe_image_style: ''
       photoswipe_caption: title
       photoswipe_view_mode: default

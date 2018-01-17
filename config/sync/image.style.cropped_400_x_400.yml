@@ -1,0 +1,14 @@
+uuid: 98c7ca2c-beac-488a-96d1-21c42034bef9
+langcode: da
+status: true
+dependencies: {  }
+name: cropped_400_x_400
+label: 'Cropped - 400x400'
+effects:
+  09ac9565-a5e9-4b26-ba2b-5359c90c30d8:
+    uuid: 09ac9565-a5e9-4b26-ba2b-5359c90c30d8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 400
