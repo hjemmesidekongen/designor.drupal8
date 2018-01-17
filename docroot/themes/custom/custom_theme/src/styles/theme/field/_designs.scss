@@ -1,9 +1,9 @@
 // |--------------------------------------------------------------------------
-// | Form
+// | Designs
 // |--------------------------------------------------------------------------
 // |
 // | This file contains styles for the following:
-// | - .form
+// | - .field--name-field-designs
 // |
 
 // --------------------------------------------------
@@ -14,20 +14,26 @@
 // Mixins
 // --------------------------------------------------
 
-@mixin form-mixin() {}
+@mixin field-designs-mixin() {}
 
 // --------------------------------------------------
 // Styling
 // --------------------------------------------------
 
-form {
+.field--name-field-designs {
+  padding: $grid-gutter-width 0;
 
-  label {
-    margin-bottom: 5px;
+  max-width: 100%;
+  overflow: auto;
 
-    font-weight: $font-weight;
-    font-size: $font-size-small;
-    text-transform: uppercase;
+  text-align: center;
+
+  img {
+    margin: auto;
+
+    border: 1px solid $border-color;
+
+    box-shadow: 0 20px 40px 0 rgba(48, 55, 39, 0.05);
   }
 }
 

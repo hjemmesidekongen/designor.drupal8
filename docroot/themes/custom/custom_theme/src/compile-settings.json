@@ -1,15 +1,9 @@
 {
   "options": {
-    "proxy": "http://hundeavl.test"
+    "proxy": "http://designor.test"
   },
   "javascripts": [
-    "node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js",
-    "node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
     "node_modules/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js",
-    "node_modules/flexy-header/javascripts/flexy-header.js",
-    "node_modules/flexy-navigation/javascripts/flexy-navigation.js",
-    "node_modules/sidr/dist/jquery.sidr.js",
-    "node_modules/jquery-slinky/dist/jquery.slinky.js",
     "node_modules/pace-progress/pace.js",
     "src/javascripts/app.js"
   ],
@@ -17,6 +11,7 @@
     "src/styles/stylesheet.scss"
   ],
   "fonts": [
+    "node_modules/font-awesome/fonts/*",
     "node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.*"
   ]
 }

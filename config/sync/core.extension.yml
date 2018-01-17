@@ -2,12 +2,12 @@ module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
   block: 0
-  block_content: 0
   breakpoint: 0
   ckeditor: 0
   config: 0
   consumers: 0
   contextual: 0
+  crop: 0
   ctools: 0
   datetime: 0
   dblog: 0
@@ -25,6 +25,7 @@ module:
   help: 0
   history: 0
   image: 0
+  image_widget_crop: 0
   inline_entity_form: 0
   jsonapi: 0
   language: 0
@@ -33,10 +34,7 @@ module:
   lightning_core: 0
   lightning_media: 0
   lightning_media_bulk_upload: 0
-  lightning_media_document: 0
-  lightning_media_image: 0
   link: 0
-  locale: 0
   media: 0
   menu_ui: 0
   metatag: 0
@@ -46,6 +44,7 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  photoswipe: 0
   schemata: 0
   schemata_json_schema: 0
   search_api: 0
@@ -58,11 +57,12 @@ module:
   text: 0
   token: 0
   toolbar: 0
+  twig_xdebug: 0
   user: 0
   video_embed_field: 0
-  video_embed_media: 0
   views_infinite_scroll: 0
   views_ui: 0
+  workflows: 0
   menu_link_content: 1
   pathauto: 1
   views: 10

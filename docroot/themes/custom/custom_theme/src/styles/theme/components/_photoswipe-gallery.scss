@@ -1,0 +1,76 @@
+// |--------------------------------------------------------------------------
+// | Photoswipe gallery
+// |--------------------------------------------------------------------------
+// |
+// | This file contains styles for the following:
+// | - .photoswipe-gallery
+// |
+
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Mixins
+// --------------------------------------------------
+
+@mixin photoswipe-gallery-mixin() {}
+
+// --------------------------------------------------
+// Styling
+// --------------------------------------------------
+
+.photoswipe-gallery {
+  @include make-row();
+
+  .field--item {
+    @include make-xs-column(12);
+    @include make-sm-column(4);
+    @include make-md-column(3);
+    @include make-lg-column(2);
+
+    margin-bottom: floor( ( $grid-gutter-width / 2 ) );
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// --------------------------------------------------
+// Variants
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Responsive
+// --------------------------------------------------
+
+// Mobile - and up
+@media #{$breakpoint-mobile-and-up} {}
+
+// Mobile - only
+@media #{$breakpoint-mobile-only} {}
+
+// Tablet - and up
+@media #{$breakpoint-tablet-and-up} {}
+
+// Tablet - only
+@media #{$breakpoint-tablet-only} {}
+
+// Desktop - and up
+@media #{$breakpoint-desktop-and-up} {}
+
+// Desktop - only
+@media #{$breakpoint-desktop-only} {}
+
+// Large desktop - and up
+@media #{$breakpoint-large-desktop-and-up} {}
+
+// Print
+@media print {}
+
+// Touch
+.touchevents {}
+
+// No touch
+.no-touchevents {}

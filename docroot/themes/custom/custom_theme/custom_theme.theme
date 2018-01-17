@@ -1,1 +1,24 @@
 <?php
+
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function custom_theme_preprocess_node(array &$variables) {
+  $node = $variables['node'];
+
+  // Project
+  if ($node->getType() == 'project') {
+
+    if ($node->hasField('field_client_id')) {
+      $field = $node->get('field_client_id')->getValue();
+
+      if ($tid = $field[0]['target_id']) {
+        $term = Term::load($tid);
+
+        $variables['client_name'] = $term->getname();
+      }
+    }
+  }
+}

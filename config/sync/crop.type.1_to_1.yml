@@ -1,0 +1,12 @@
+uuid: 056465f1-8b05-45ab-a4af-9fa9e272a65a
+langcode: da
+status: true
+dependencies: {  }
+label: '1:1'
+id: 1_to_1
+description: ''
+aspect_ratio: '1:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

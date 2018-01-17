@@ -1,92 +1,11 @@
 <!-- Begin - wrapper -->
 <main class="layout__wrapper">
 
-    <!-- Begin - sidr source provider -->
-    <aside class="sidr-source-provider">
-
-        <!-- Begin - navigation -->
-        <nav class="sidr__navigation"></nav>
-        <!-- End - navigation -->
-
-    </aside>
-    <!-- End - sidr source provider -->
-
-    <!-- Begin - header static -->
-    <header class="flexy-header flexy-header--static">
-        <div class="flexy-header__row">
-            <div class="container">
-                <div class="flexy-row">
-
-                    <!-- Begin - logo -->
-                    <a href="{{ url('<front>') }}" class="flexy-header__logo">
-                        <img src="{{ base_path ~ directory }}/dist/images/logo.svg" alt="Logo" />
-                    </a>
-                    <!-- End - logo -->
-
-                    <!-- Push navigation to the right -->
-                    <div class="flexy-spacer"></div>
-
-                    <!-- Begin - navigation -->
-                    <nav class="flexy-header__navigation__wrapper"></nav>
-                    <!-- End - navigation -->
-
-                    <!-- Begin - responsive toggle -->
-                    <a href="#" class="flexy-header__sidebar-toggle">
-                        <span class="icon fa fa-bars"></span>
-                    </a>
-                    <!-- End - responsive toggle -->
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- End - header static -->
-
-    <!-- Begin - header sticky -->
-    <header class="flexy-header flexy-header--sticky">
-        <div class="flexy-header__row">
-            <div class="container">
-                <div class="flexy-row">
-
-                    <!-- Begin - logo -->
-                    <a href="{{ url('<front>') }}" class="flexy-header__logo">
-                        <img src="{{ base_path ~ directory }}/dist/images/logo.svg" alt="Logo" />
-                    </a>
-                    <!-- End - logo -->
-
-                    <!-- Push navigation to the right -->
-                    <div class="flexy-spacer"></div>
-
-                    <!-- Begin - navigation -->
-                    <nav class="flexy-header__navigation__wrapper"></nav>
-                    <!-- End - navigation -->
-
-                    <!-- Begin - responsive toggle -->
-                    <a href="#" class="flexy-header__sidebar-toggle">
-                        <span class="icon fa fa-bars"></span>
-                    </a>
-                    <!-- End - responsive toggle -->
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- End - header sticky -->
-
     {# Main #}
     {% block main %}
         <!-- Begin - content -->
         <div class="layout__content" role="document">
-            <div class="container">
-
-                {# Header #}
-                {% if page.header %}
-                    {% block header %}
-                        <div role="heading">
-                            {{ page.header }}
-                        </div>
-                    {% endblock %}
-                {% endif %}
+            <div class="container-fluid">
 
                 {# Highlighted #}
                 {% if page.highlighted %}
@@ -117,18 +36,6 @@
         </div>
         <!-- End - content -->
     {% endblock %}
-
-    {% if page.footer %}
-        {% block footer %}
-            <!-- Begin - footer -->
-            <footer class="layout__footer" role="contentinfo">
-                <div class="container">
-                    {{ page.footer }}
-                </div>
-            </footer>
-            <!-- End - footer -->
-        {% endblock %}
-    {% endif %}
 
 </main>
 <!-- End - wrapper -->

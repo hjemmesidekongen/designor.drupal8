@@ -1,6 +1,6 @@
 uuid: 20e24eb5-619e-45f2-a6a3-9afe07b561af
 langcode: da
-status: true
+status: false
 dependencies:
   config:
     - views.view.search
@@ -14,7 +14,7 @@ _core:
 id: custom_theme_search
 theme: custom_theme
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'views_exposed_filter_block:search-page'
 settings:

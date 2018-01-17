@@ -1,0 +1,94 @@
+// |--------------------------------------------------------------------------
+// | Tabs
+// |--------------------------------------------------------------------------
+// |
+// | This file contains styles for the following:
+// | - .tabs
+// |
+
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Mixins
+// --------------------------------------------------
+
+@mixin tabs-mixin() {}
+
+// --------------------------------------------------
+// Styling
+// --------------------------------------------------
+
+.tabs {
+  position: fixed;
+
+  z-index: $zindex-modal;
+
+  right: $grid-gutter-width;
+  bottom: $grid-gutter-width;
+
+  .nav-tabs {
+    border-bottom: 0; // Override
+
+    > li {
+      margin-bottom: 0; // Override
+
+      > a {
+        margin-right: 0; // Override
+        border-radius: 0; // Override
+        border: 0; // Override
+
+        color: #fff;
+        background-color: $brand-primary;
+
+        &:hover {
+          background-color: darken($brand-primary, 10%);
+        }
+      }
+
+      // The active item is always "Show" - which we dont want to show.
+      &.active {
+        display: none;
+      }
+    }
+  }
+}
+
+// --------------------------------------------------
+// Variants
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Responsive
+// --------------------------------------------------
+
+// Mobile - and up
+@media #{$breakpoint-mobile-and-up} {}
+
+// Mobile - only
+@media #{$breakpoint-mobile-only} {}
+
+// Tablet - and up
+@media #{$breakpoint-tablet-and-up} {}
+
+// Tablet - only
+@media #{$breakpoint-tablet-only} {}
+
+// Desktop - and up
+@media #{$breakpoint-desktop-and-up} {}
+
+// Desktop - only
+@media #{$breakpoint-desktop-only} {}
+
+// Large desktop - and up
+@media #{$breakpoint-large-desktop-and-up} {}
+
+// Print
+@media print {}
+
+// Touch
+.touchevents {}
+
+// No touch
+.no-touchevents {}
