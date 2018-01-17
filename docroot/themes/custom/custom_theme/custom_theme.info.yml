@@ -1,0 +1,19 @@
+name: 'Custom theme'
+type: theme
+description: 'A beautiful custom theme.'
+core: 8.x
+screenshot: dist/images/screenshot.png
+base theme: custom_base_theme
+package: Custom
+
+regions:
+  header_top: 'Header top'
+  main_navigation: 'Main navigation'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+
+libraries:
+  - 'custom_theme/fonts'
+  - 'custom_theme/styles'
+  - 'custom_theme/javascripts'

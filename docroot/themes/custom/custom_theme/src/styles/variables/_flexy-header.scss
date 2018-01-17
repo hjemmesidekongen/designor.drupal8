@@ -1,0 +1,26 @@
+// Static
+$flexy-header-static-background-color: $brand-primary;
+
+// Sticky
+$flexy-header-sticky-background-color: fade($brand-primary, 95%);
+
+// Responsive (static)
+$xs-flexy-header-static-logo-height: 50px;
+$sm-flexy-header-static-logo-height: 60px;
+$md-flexy-header-static-logo-height: 70px;
+$lg-flexy-header-static-logo-height: 80px;
+
+// Responsive (sticky)
+$xs-flexy-header-sticky-row-height: 60px;
+$xs-flexy-header-sticky-logo-height: 40px;
+
+$sm-flexy-header-sticky-row-height: 60px;
+$sm-flexy-header-sticky-logo-height: 40px;
+
+$md-flexy-header-sticky-row-height: 60px;
+$md-flexy-header-sticky-logo-height: 40px;
+
+$lg-flexy-header-sticky-row-height: 60px;
+$lg-flexy-header-sticky-logo-height: 40px;
+
+
