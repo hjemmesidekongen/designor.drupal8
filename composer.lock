@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b77dadf108027f576563c700746cbfb",
+    "content-hash": "d45fd4887d0e0f51a21064b1351d4255",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -1203,6 +1203,48 @@
                 "issues": "https://www.drupal.org/project/issues/bootstrap",
                 "irc": "irc://irc.freenode.org/drupal-bootstrap"
             }
+        },
+        {
+            "name": "drupal/bootstrap_carousel_if",
+            "version": "dev-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bootstrap_carousel_if",
+                "reference": "0938a07ec124c4b98b790882375d5a2ce0e62ff4"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.x-dev",
+                    "datestamp": "1486969683",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "2pha",
+                    "homepage": "https://www.drupal.org/user/364126"
+                }
+            ],
+            "description": "Adds formatter for displaying image fields as Bootstrap Carousel.",
+            "homepage": "https://www.drupal.org/project/bootstrap_carousel_if",
+            "support": {
+                "source": "http://cgit.drupalcode.org/bootstrap_carousel_if"
+            },
+            "time": "2017-08-15T05:20:48+00:00"
         },
         {
             "name": "drupal/config_update",
@@ -11984,7 +12026,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/photoswipe": 10
+        "drupal/photoswipe": 10,
+        "drupal/bootstrap_carousel_if": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

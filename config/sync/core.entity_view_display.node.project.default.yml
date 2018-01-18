@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.project.field_designs
     - node.type.project
   module:
-    - photoswipe
+    - bootstrap_carousel_if
     - user
 id: node.project.default
 targetEntityType: node
@@ -18,12 +18,19 @@ content:
     weight: 0
     label: hidden
     settings:
-      photoswipe_node_style: cropped_400_x_400
-      photoswipe_image_style: ''
-      photoswipe_caption: title
-      photoswipe_view_mode: default
+      interval: '0'
+      pause: '0'
+      wrap: '0'
+      indicators: '1'
+      controls: '1'
+      image_style: ''
+      keyboard: 0
+      background: 0
+      background_pos: 'center center'
+      width: 100%
+      height: 100px
     third_party_settings: {  }
-    type: photoswipe_field_formatter
+    type: bootstrap_carousel_image_formatter
     region: content
 hidden:
   field_client_id: true

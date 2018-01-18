@@ -2,6 +2,7 @@ module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
   block: 0
+  bootstrap_carousel_if: 0
   breakpoint: 0
   ckeditor: 0
   config: 0

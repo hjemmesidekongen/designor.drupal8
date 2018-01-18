@@ -29,7 +29,8 @@
         "drupal/bootstrap": "^3.8",
         "drupal/admin_toolbar": "^1.22",
         "drupal/photoswipe": "^1.0@beta",
-        "bower-asset/photoswipe": "^4.1"
+        "bower-asset/photoswipe": "^4.1",
+        "drupal/bootstrap_carousel_if": "3.x-dev"
     },
     "repositories": [
         {
